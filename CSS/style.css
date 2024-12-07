@@ -1,0 +1,160 @@
+body{
+    font-family: "Montserrat", sans-serif;
+    background: #343045;
+}
+
+header{
+    background: #343045;
+}
+.logo img{
+    height: 55px;
+    width: 150px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+}
+
+.contact{
+    border: 1px solid white;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 90px;
+}
+
+.contact:hover{
+    border: 1px solid white;
+    color: white;
+}
+.join{
+    background: linear-gradient(#8176AF,#C0B7E8);
+    color: #343045;
+    border-radius: 90px;
+}
+
+.title{
+    font-size: 46px;
+    font-weight: bold;
+    background: linear-gradient(#C0B7E8,#8176AF);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text{
+    color: #ffffff;
+    font-size: 16px;
+}
+
+.arrow{
+    color: #C0B7E8;
+    font-size: 45px;
+}
+
+.join1{
+    background: radial-gradient(#3A3456, #211E2E);
+    border-radius: 90px;
+}
+
+.heading{
+    color: white;
+    font-size: 24px;
+}
+
+.col-mid{
+    border-left: 1px solid #C0B7E8;
+    border-right: 1px solid #C0B7E8;
+}
+
+.heading1{
+    color: white;
+    font-size: 36px;
+}
+
+.second{
+    margin: 70px;
+}
+
+hr{
+    color: white;
+    width: 150px;
+    margin-left: 50px;
+}
+
+.card-3{
+    background: radial-gradient(#3A3456, #211E2E);
+    border-radius: 30px;
+}
+
+.heading2{
+    color: white;
+    font-weight: bold;
+}
+
+.card-3 img{
+    height: 192px;
+    width: 292px;
+    padding-top: 15px;
+}
+
+.product img{
+    width: 100%;
+    height: 100px;
+}
+
+.process{
+    background: linear-gradient(#8176AF,#C0B7E8);
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    font-size: 64px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 50px;
+    margin-bottom: 20px;
+}
+
+.process1{
+    color: white;
+    width: 220px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+    /* text-align: center; */
+}
+
+.optln{
+    background: radial-gradient(#3A3456, #211E2E);
+    text-align: center;
+    border-radius: 100px;
+}
+
+.form-control{
+    border-radius: 40px;
+    background: transparent;
+    height: 50px;
+}
+
+.message{
+    height: 200px;
+}
+
+.foot1{
+    border-left: 3px solid #C0B7E8;
+}
+
+.foot1 li{
+    list-style: none;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.socail i{
+    color: rgba(192, 183, 232, 1);
+    font-size: 25px;
+    padding: 20px;
+}
