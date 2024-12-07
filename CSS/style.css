@@ -74,7 +74,8 @@ a{
 }
 
 .second{
-    margin: 70px;
+    margin-top: 70px;
+    margin-bottom: 70px;
 }
 
 hr{
@@ -128,13 +129,21 @@ hr{
 .optln{
     background: radial-gradient(#3A3456, #211E2E);
     text-align: center;
-    border-radius: 100px;
+    border-radius: 50px;
+    padding: 50px;
 }
 
 .form-control{
     border-radius: 40px;
     background: transparent;
     height: 50px;
+    border: 3px solid white;
+}
+
+.form-control::placeholder {
+    color: white;
+    opacity: 1;
+    padding: 20px;
 }
 
 .message{
@@ -157,4 +166,33 @@ hr{
     color: rgba(192, 183, 232, 1);
     font-size: 25px;
     padding: 20px;
+}
+
+.line{
+    width: 100%;
+    margin-left: 0;
+}
+
+.tech{
+    height: 200px;
+    background-image: url(/images/Cloud\ backgroung.png);
+    border-radius: 90px;
+    font-size: 36px;
+    color: white;
+    padding-top: 50px;
+    line-height: 25px;
+    align-items: center;
+}
+
+.scroll{
+    background: #C0B7E8;
+    border-radius: 100%;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+.scroll img{
+    padding-top: 15px;
 }
